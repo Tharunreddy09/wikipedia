@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.img1{
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+}
+.image{
+    text-align: center;
+}
+.input{
+    height: 70px;
+    width: 100%;
+    margin: 20px;
+    padding-left: 10px;
+    font-size: 35px;
+    /* margin-left: 100px; */
+}
+input::placeholder{
+    font-size: 35px;
+}
+.btn1{
+    height: 30px;
+    padding-left: 10px;
+     margin-top: 30px;
+     background-color: rebeccapurple;
+}
+
+.content{
+    margin-left: 50px
+}
+.anchor {
+    font-size: 50px;
+    color: #007Bff;
+}
+.link1{
+    color: #006621;
+    font-size: 30px;
+}
+.des{
+    font-size: 25px;
+}
+
+
+
+@media  screen and (min-width : 1024px) {
+    .img1{
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    .input{
+        height: 35px;
+        width: 100%;
+        margin: 20px;
+        padding-left: 10px;
+        font-size: 25px;
+        /* margin-left: 100px; */
+    }
+    input::placeholder{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .anchor-responsive{
+        font-size: 30px;
+    }
+    .link1-responsive{
+        font-size: 25px;
+    }
+    .des-responsive{
+        font-size: 20px;
+    }
+}
